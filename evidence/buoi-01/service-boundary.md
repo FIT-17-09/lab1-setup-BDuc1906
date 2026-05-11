@@ -2,8 +2,8 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
-- Lớp:
+- Tên nhóm: 14 
+- Lớp: CNTT 17-09
 - Thành viên:
 - Service nhóm phụ trách:
 - Sản phẩm tổng thể của lớp:
