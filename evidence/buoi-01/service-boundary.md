@@ -106,4 +106,3 @@ graph TD
 Camera --> AIDetectionService
 AIDetectionService --> DetectionDatabase
 AIDetectionService --> NotificationService
-```
