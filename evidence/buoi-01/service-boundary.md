@@ -11,7 +11,11 @@
 ## 2. Actor
 
 Ai tương tác với hệ thống/service?
-
+- Camera Service
+- Admin
+- Dashboard Frontend
+- API Gateway
+- Mobile Application
 ## 3. System Boundary
 
 Nhóm em xây phần nào?
@@ -28,7 +32,12 @@ Phần nhóm kiểm soát:
 
 Phần nhóm chỉ tích hợp:
 
-- ...
+- Camera Service
+- Dashboard Frontend
+- API Gateway
+- Notification Service
+- Monitoring Service
+- Detection Database
 
 ## 4. Service Boundary
 
