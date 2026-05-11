@@ -48,25 +48,49 @@ Service KHÔNG làm gì?
 
 ### Input
 
-- ...
+- Service nhận dữ liệu ảnh hoặc video frame từ camera/hệ thống khác.
+
+Ví dụ request:
+
+```json
+{
+  "camera_id": "cam-01",
+  "image_url": "https://example.com/image.jpg",
+  "timestamp": "2026-05-11T10:00:00Z"
+}
 
 ### Output
 
-- ...
+{
+  "detected": true,
+  "label": "person",
+  "confidence": 0.95,
+  "risk_level": "medium"
+}
 
 ## 6. API dự kiến
 
 | Method | Endpoint | Mục đích |
 |---|---|---|
 | GET | /health | Kiểm tra service |
-| POST | ... | ... |
+| POST | /detect | Nhận ảnh và thực hiện detection |
+|GET|/detections|Lấy danh sách detection|
+|GET|/detections/{id}|Xem chi tiết detection|
+|POST|/analyze-risk|Phân tích mức độ rủi ro|
 
 ## 7. Phụ thuộc service khác
 
 Service này gọi đến service nào?
+- AI Model Service
+- Detection Database
+- Notification Service
+- Monitoring Service
 
 Service nào gọi đến service này?
-
+- Camera Service
+- API Gateway
+- Dashboard Frontend
+- Mobile Application
 ## 8. Sơ đồ minh họa
 
 Có thể vẽ bằng Mermaid, draw.io, Ludichart hoặc ảnh chụp sơ đồ.
