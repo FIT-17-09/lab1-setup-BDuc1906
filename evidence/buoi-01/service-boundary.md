@@ -18,7 +18,13 @@ Nhóm em xây phần nào?
 
 Phần nhóm kiểm soát:
 
-- ...
+- Nhận ảnh hoặc video frame từ camera/hệ thống khác
+- Phân tích dữ liệu bằng mô hình AI
+- Phát hiện đối tượng như người, xe, vật thể nguy hiểm,...
+- Tính độ chính xác (confidence)
+- Đánh giá mức độ rủi ro (risk level)
+- Trả kết quả dưới dạng JSON qua API
+- Ghi log và kiểm tra trạng thái hoạt động của service
 
 Phần nhóm chỉ tích hợp:
 
@@ -29,6 +35,14 @@ Phần nhóm chỉ tích hợp:
 Service của nhóm có trách nhiệm gì?
 
 Service KHÔNG làm gì?
+- Quản lý tài khoản người dùng
+- Xác thực đăng nhập
+- Hiển thị giao diện web/mobile
+- Điều khiển camera vật lý
+- Gửi email hoặc SMS trực tiếp
+- Lưu trữ video dài hạn
+- Quản lý phân quyền hệ thống
+- Xử lý nghiệp vụ của các service khác
 
 ## 5. Input / Output
 
