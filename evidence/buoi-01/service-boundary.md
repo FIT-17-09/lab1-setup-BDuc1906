@@ -71,7 +71,7 @@ Ví dụ request:
 ## 6. API dự kiến
 
 | Method | Endpoint | Mục đích |
-|---|---|---|
+| --- | --- | --- |
 | GET | /health | Kiểm tra service |
 | POST | /detect | Nhận ảnh và thực hiện detection |
 | GET | /detections | Lấy danh sách detection |
