@@ -58,15 +58,18 @@ Ví dụ request:
   "image_url": "https://example.com/image.jpg",
   "timestamp": "2026-05-11T10:00:00Z"
 }
+```
 
 ### Output
 
+```json
 {
   "detected": true,
   "label": "person",
   "confidence": 0.95,
   "risk_level": "medium"
 }
+```
 
 ## 6. API dự kiến
 
@@ -77,8 +80,6 @@ Ví dụ request:
 | GET | /detections | Lấy danh sách detection |
 | GET | /detections/{id} | Xem chi tiết detection |
 | POST | /analyze-risk | Phân tích mức độ rủi ro |
-
----
 
 ## 7. Phụ thuộc service khác
 
@@ -96,8 +97,6 @@ Ví dụ request:
 - Dashboard Frontend
 - Mobile Application
 
----
-
 ## 8. Sơ đồ minh họa
 
 ```mermaid
@@ -106,3 +105,4 @@ graph TD
 Camera --> AIDetectionService
 AIDetectionService --> DetectionDatabase
 AIDetectionService --> NotificationService
+```
