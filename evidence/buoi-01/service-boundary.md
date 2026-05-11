@@ -74,26 +74,31 @@ Ví dụ request:
 |---|---|---|
 | GET | /health | Kiểm tra service |
 | POST | /detect | Nhận ảnh và thực hiện detection |
-|GET|/detections|Lấy danh sách detection|
-|GET|/detections/{id}|Xem chi tiết detection|
-|POST|/analyze-risk|Phân tích mức độ rủi ro|
+| GET | /detections | Lấy danh sách detection |
+| GET | /detections/{id} | Xem chi tiết detection |
+| POST | /analyze-risk | Phân tích mức độ rủi ro |
+
+---
 
 ## 7. Phụ thuộc service khác
 
-Service này gọi đến service nào?
+### Service này gọi đến service nào?
+
 - AI Model Service
 - Detection Database
 - Notification Service
 - Monitoring Service
 
-Service nào gọi đến service này?
+### Service nào gọi đến service này?
+
 - Camera Service
 - API Gateway
 - Dashboard Frontend
 - Mobile Application
-## 8. Sơ đồ minh họa
 
-Có thể vẽ bằng Mermaid, draw.io, Ludichart hoặc ảnh chụp sơ đồ.
+---
+
+## 8. Sơ đồ minh họa
 
 ```mermaid
 graph TD
@@ -101,3 +106,4 @@ graph TD
 Camera --> AIDetectionService
 AIDetectionService --> DetectionDatabase
 AIDetectionService --> NotificationService
+```
