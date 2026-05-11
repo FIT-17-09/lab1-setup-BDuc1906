@@ -72,7 +72,8 @@ Service nào gọi đến service này?
 Có thể vẽ bằng Mermaid, draw.io, Ludichart hoặc ảnh chụp sơ đồ.
 
 ```mermaid
-flowchart LR
-    User[Actor] --> Service[Service của nhóm]
-    Service --> DB[(Database)]
-    Service --> Other[Service khác]
+graph TD
+
+Camera --> AIDetectionService
+AIDetectionService --> DetectionDatabase
+AIDetectionService --> NotificationService
