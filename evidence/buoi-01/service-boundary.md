@@ -4,8 +4,8 @@
 
 - Tên nhóm: 14 
 - Lớp: CNTT 17-09
-- Thành viên:
-- Service nhóm phụ trách:
+- Thành viên: Bùi Anh Đức ,Trịnh Minh Quân, Nguyễn Nhật Quang , Lê Cao Tất Thành
+- Service nhóm phụ trách: AI
 - Sản phẩm tổng thể của lớp:
 
 ## 2. Actor
