@@ -2,7 +2,7 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm: 14 
+- Tên nhóm: B4: Xây dựng dịch vụ AI phân tích hình ảnh. 
 - Lớp: CNTT 17-09
 - Thành viên: Bùi Anh Đức ,Trịnh Minh Quân, Nguyễn Nhật Quang , Lê Cao Tất Thành
 - Service nhóm phụ trách: AI
